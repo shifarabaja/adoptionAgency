@@ -8,158 +8,175 @@
 /* Body and Background Setup */
 body {
     font-family: 'Georgia', 'Times New Roman', serif;
-    background-color: #f5f2e8; /* Light beige */
+    background-color: #f9f8f3; /* Light warm cream */
     color: #3b3028; /* Dark brown */
     line-height: 1.6;
 }
 
 /* Header Styling */
 header {
-    background-color: #d8c3a5; /* Warm beige */
-    color: #3b3028;
+    background-color: #A7C4A0; /* Sage green */
+    color: #3b3028; 
     text-align: center;
-    padding: 50px 20px;
+    padding: 60px 20px; /* Added some space for a more open feel */
+    border-bottom: 4px solid #8C9D73; /* Light brown border */
 }
 
 header h1 {
-    font-size: 3em;
+    font-size: 3.5em; /* Increased size for more presence */
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    color: #fff; /* White text for contrast */
 }
 
 header p {
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-style: italic;
+    color: #fff; /* White text for contrast */
 }
 
 /* Navigation Styling */
 nav {
-    background-color: #8b6f47; /* Olive brown */
+    background-color: #6B8E23; /* Olive sage green */
     text-align: center;
-    padding: 15px 0;
+    padding: 18px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 nav a {
     text-decoration: none;
     color: #fff;
-    padding: 10px 20px;
-    margin: 0 15px;
-    font-size: 1.2em;
+    padding: 12px 25px;
+    margin: 0 18px;
+    font-size: 1.3em;
     border-radius: 5px;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.3s ease;
 }
 
 nav a:hover {
-    background-color: #6d5634; /* Darker olive brown */
+    background-color: #A7C4A0; 
+    transform: scale(1.05); 
 }
 
-/* Main Container Styling */
+/
 .container {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
-    padding: 40px 0;
+    padding: 50px 0; 
 }
 
 /* Section Styling */
 section {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 section h2 {
-    font-size: 2.5em;
-    color: #8b6f47; /* Olive brown */
-    margin-bottom: 20px;
+    font-size: 2.8em;
+    color: #6B8E23; 
+    margin-bottom: 25px;
     font-weight: bold;
     text-align: center;
 }
 
 /* About Section */
 #about p {
-    font-size: 1.1em;
+    font-size: 1.2em;
     text-align: center;
-    max-width: 800px;
+    max-width: 850px;
     margin: 0 auto;
+    color: #4a4a4a; 
 }
 
-/* Animal Cards Styling */
+/* Animal Styling */
 .animal-list {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 25px;
     flex-wrap: wrap;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .animal-card {
-    background-color: #fffaf0; /* Off-white */
-    border-radius: 10px;
+    background-color: #E4F1E1; 
+    border-radius: 12px;
     overflow: hidden;
     width: 30%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
     text-align: center;
-    padding: 10px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
 .animal-card:hover {
     transform: scale(1.05);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .animal-card img {
     width: 100%;
     height: 200px;
     object-fit: cover;
+    border-radius: 8px;
 }
 
 .animal-card h3 {
-    font-size: 1.5em;
-    color: #3b3028;
-    margin-top: 10px;
+    font-size: 1.6em;
+    color: #3b3028; 
+    margin-top: 15px;
 }
 
 .animal-card p {
-    font-size: 1.1em;
-    color: #6d5e51; /* Soft brown */
+    font-size: 1.2em;
+    color: #5C4F3C; 
 }
 
 /* Volunteer Section */
 #volunteer p {
-    font-size: 1.1em;
+    font-size: 1.2em;
     text-align: center;
+    color: #4a4a4a; 
 }
 
 #volunteer a {
-    color: #8b6f47; /* Olive brown */
+    color: #6B8E23; 
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s;
+}
+
+#volunteer a:hover {
+    color: #A7C4A0; 
 }
 
 /* Contact Section */
 #contact p {
-    font-size: 1.2em;
+    font-size: 1.3em;
     margin: 15px 0;
     text-align: center;
+    color: #4a4a4a;
 }
 
 #contact a {
-    color: #8b6f47;
+    color: #6B8E23; /
     text-decoration: none;
+}
+
+#contact a:hover {
+    color: #A7C4A0; 
 }
 
 /* Footer Styling */
 footer {
-    background-color: #d8c3a5; /* Warm beige */
+    background-color: #A7C4A0; 
     text-align: center;
-    padding: 20px 0;
+    padding: 25px 0;
+    color: #fff; 
 }
 
 footer p {
-    font-size: 1.1em;
-    color: #3b3028;
+    font-size: 1.2em;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .animal-list {
         flex-direction: column;
@@ -168,19 +185,19 @@ footer p {
 
     .animal-card {
         width: 80%;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
 
     nav a {
-        padding: 8px 15px;
-        font-size: 1em;
+        padding: 8px 18px;
+        font-size: 1.1em;
     }
 
     header h1 {
-        font-size: 2.5em;
+        font-size: 2.8em;
     }
 
     header p {
-        font-size: 1em;
+        font-size: 1.1em;
     }
 }
