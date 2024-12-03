@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* Body and Background Setup */
+/* Body and Background */
 body {
     font-family: 'Georgia', 'Times New Roman', serif;
     background-color: #f9f8f3; /* Light warm cream */
@@ -12,7 +12,7 @@ body {
     line-height: 1.6;
 }
 
-/* Header Styling */
+/* Header  */
 header {
     background-color: ##C8EDBF;
     color: #3b3028; 
@@ -34,7 +34,7 @@ header p {
     color: #fff; 
 }
 
-/* Navigation Styling */
+/* Navigation */
 nav {
     background-color: #6B8E23;
     text-align: center;
@@ -64,7 +64,7 @@ nav a:hover {
     padding: 50px 0; 
 }
 
-/* Section Styling */
+/* Sections */
 section {
     margin-bottom: 50px;
 }
@@ -86,7 +86,7 @@ section h2 {
     color: #4a4a4a; 
 }
 
-/* Animal Styling */
+/* Animals */
 .animal-list {
     display: flex;
     justify-content: space-between;
@@ -164,7 +164,7 @@ section h2 {
     color: #A7C4A0; 
 }
 
-/* Footer Styling */
+/* Footer */
 footer {
     background-color: #A7C4A0; 
     text-align: center;
