@@ -1,4 +1,3 @@
-/* General Reset */
 * {
     margin: 0;
     padding: 0;
@@ -15,29 +14,29 @@ body {
 
 /* Header Styling */
 header {
-    background-color: ##C8EDBF; /* Sage green */
+    background-color: ##C8EDBF;
     color: #3b3028; 
     text-align: center;
-    padding: 60px 20px; /* Added some space for a more open feel */
-    border-bottom: 4px solid #8C9D73; /* Light brown border */
+    padding: 60px 20px; 
+    border-bottom: 4px solid #8C9D73;
 }
 
 header h1 {
-    font-size: 3.5em; /* Increased size for more presence */
+    font-size: 3.5em; 
     font-weight: bold;
     margin-bottom: 15px;
-    color: #fff; /* White text for contrast */
+    color: #fff; 
 }
 
 header p {
     font-size: 1.3em;
     font-style: italic;
-    color: #fff; /* White text for contrast */
+    color: #fff; 
 }
 
 /* Navigation Styling */
 nav {
-    background-color: #6B8E23; /* Olive sage green */
+    background-color: #6B8E23;
     text-align: center;
     padding: 18px 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
