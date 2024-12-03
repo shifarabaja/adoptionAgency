@@ -1,21 +1,22 @@
+/* General Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body and background setup */
+/* Body and Background Setup */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f8f8f8;
-    color: #333;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    background-color: #f5f2e8; /* Light beige */
+    color: #3b3028; /* Dark brown */
     line-height: 1.6;
 }
 
 /* Header Styling */
 header {
-    background-color: #ffcccb; /* Soft pink */
-    color: #fff;
+    background-color: #d8c3a5; /* Warm beige */
+    color: #3b3028;
     text-align: center;
     padding: 50px 20px;
 }
@@ -33,7 +34,7 @@ header p {
 
 /* Navigation Styling */
 nav {
-    background-color: #ff9eb1; /* Lighter pink */
+    background-color: #8b6f47; /* Olive brown */
     text-align: center;
     padding: 15px 0;
 }
@@ -49,7 +50,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #ff6174; /* Slightly darker pink */
+    background-color: #6d5634; /* Darker olive brown */
 }
 
 /* Main Container Styling */
@@ -66,7 +67,7 @@ section {
 
 section h2 {
     font-size: 2.5em;
-    color: #ff9eb1;
+    color: #8b6f47; /* Olive brown */
     margin-bottom: 20px;
     font-weight: bold;
     text-align: center;
@@ -90,18 +91,19 @@ section h2 {
 }
 
 .animal-card {
-    background-color: #fff;
+    background-color: #fffaf0; /* Off-white */
     border-radius: 10px;
     overflow: hidden;
     width: 30%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     padding: 10px;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .animal-card:hover {
     transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .animal-card img {
@@ -112,13 +114,13 @@ section h2 {
 
 .animal-card h3 {
     font-size: 1.5em;
-    color: #333;
+    color: #3b3028;
     margin-top: 10px;
 }
 
 .animal-card p {
     font-size: 1.1em;
-    color: #666;
+    color: #6d5e51; /* Soft brown */
 }
 
 /* Volunteer Section */
@@ -128,7 +130,7 @@ section h2 {
 }
 
 #volunteer a {
-    color: #ff6174;
+    color: #8b6f47; /* Olive brown */
     text-decoration: none;
     font-weight: bold;
 }
@@ -141,20 +143,20 @@ section h2 {
 }
 
 #contact a {
-    color: #ff6174;
+    color: #8b6f47;
     text-decoration: none;
 }
 
 /* Footer Styling */
 footer {
-    background-color: #ffcccb;
+    background-color: #d8c3a5; /* Warm beige */
     text-align: center;
     padding: 20px 0;
 }
 
 footer p {
     font-size: 1.1em;
-    color: #333;
+    color: #3b3028;
 }
 
 /* Responsive Design */
@@ -182,4 +184,3 @@ footer p {
         font-size: 1em;
     }
 }
-
