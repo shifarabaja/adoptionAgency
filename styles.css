@@ -91,7 +91,7 @@ section h2 {
 .animal-list {
     display: flex;
     justify-content: space-between;
-    gap: 25px;
+    gap: 15px;
     flex-wrap: wrap;
     margin-top: 40px;
 }
@@ -103,7 +103,7 @@ section h2 {
     width: 20%;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
     text-align: center;
-    padding: 100px;
+    padding: 50px;
     transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
