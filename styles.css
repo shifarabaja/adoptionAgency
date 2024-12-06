@@ -66,6 +66,7 @@ nav a:hover {
 
 /* Sections */
 section {
+    padding: 100px;
     margin-bottom: 50px;
 }
 
